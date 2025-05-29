@@ -22,7 +22,7 @@ Requirements:
 6. Convert Entity to DTO in GET response using ModelMapper.
 7. Convert DTO to Entity in POST/PUT request using ModelMapper.
 8. Update your controller to use DTOs in all API methods.
-9. 
+   
 Bonus Task (Optional):
 
 Add a field maskedEmail to UserDTO which returns the email with domain hidden. Example:
