@@ -12,11 +12,11 @@ Requirements:
 2. Do not expose the entity directly from the controller.
 3. Install ModelMapper dependency in pom.xml:
    
- <dependency>
+ **<dependency>
  <groupId>org.modelmapper</groupId>
  <artifactId>modelmapper</artifactId>
  <version>3.1.1</version>
- </dependency>
+ </dependency>**
  
 5. Configure a ModelMapper bean in your configuration class.
 6. Convert Entity to DTO in GET response using ModelMapper.
